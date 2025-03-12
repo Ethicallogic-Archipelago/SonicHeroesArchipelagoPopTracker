@@ -1,0 +1,2 @@
+# SonicHeroesArchipelagoPopTracker
+Poptracker for SonicHeroes Archipelago
