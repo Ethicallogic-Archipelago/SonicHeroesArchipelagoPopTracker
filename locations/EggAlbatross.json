@@ -1,0 +1,94 @@
+[
+    {
+        "name": "Egg Albatross - Team Sonic",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["egg_albatross_available"],
+        "visibility_rules": ["sonic_story_mission_A", "sonic_story_mission_B", "sonic_story_mission_AandB"],
+        "sections": [
+            {
+                "name": "Egg Albatross Sonic",
+                "access_rules": ["egg_albatross_available"],
+                "visibility_rules": ["sonic_story_mission_A", "sonic_story_mission_B", "sonic_story_mission_AandB"],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 682,
+                "y": 880, 
+                "size": 30
+            }
+        ]
+    },
+    {
+        "name": "Egg Albatross - Team Dark",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["egg_albatross_available"],
+        "visibility_rules": ["dark_story_mission_A", "dark_story_mission_B", "dark_story_mission_AandB"],
+        "sections": [
+            {
+                "name": "Egg Albatross Dark",
+                "access_rules": ["egg_albatross_available"],
+                "visibility_rules": ["dark_story_mission_A", "dark_story_mission_B", "dark_story_mission_AandB"],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 721,
+                "y": 880, 
+                "size": 30
+            }
+        ]
+    },
+    {
+        "name": "Egg Albatross - Team Rose",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["egg_albatross_available"],
+        "visibility_rules": ["rose_story_mission_A", "rose_story_mission_B", "rose_story_mission_AandB"],
+        "sections": [
+            {
+                "name": "Egg Albatross Rose",
+                "access_rules": ["egg_albatross_available"],
+                "visibility_rules": ["rose_story_mission_A", "rose_story_mission_B", "rose_story_mission_AandB"],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 760,
+                "y": 880, 
+                "size": 30
+            }
+        ]
+    },
+    {
+        "name": "Egg Albatross - Team Chaotix",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["egg_albatross_available"],
+        "visibility_rules": ["chaotix_story_mission_A", "chaotix_story_mission_B", "chaotix_story_mission_AandB"],
+        "sections": [
+            {
+                "name": "Egg Albatross Chaotix",
+                "access_rules": ["egg_albatross_available"],
+                "visibility_rules": ["chaotix_story_mission_A", "chaotix_story_mission_B", "chaotix_story_mission_AandB"],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 798,
+                "y": 880, 
+                "size": 30
+            }
+        ]
+    }
+]

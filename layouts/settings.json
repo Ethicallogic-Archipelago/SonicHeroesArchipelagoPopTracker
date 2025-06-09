@@ -1,0 +1,26 @@
+{
+    "settings_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "rows": [
+                            ["number_of_gates","required_rank", "", "sonic_story", "dark_story", "rose_story", "chaotix_story", "", "death_link", "ring_link"],
+                            ["", "", "", "", "dark_sanity", "rose_sanity", "chaotix_sanity", "", "", "ring_link_overlord"],
+                            ["", "", "", "", "dark_sanity_enemy_interval", "rose_sanity_ring_interval", "chaotix_sanity_ring_interval", "", "", "ring_loss"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,94 @@
+[
+    {
+        "name": "Egg Hawk - Team Sonic",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["egg_hawk_available"],
+        "visibility_rules": ["sonic_story_mission_A", "sonic_story_mission_B", "sonic_story_mission_AandB"],
+        "sections": [
+            {
+                "name": "Egg Hawk Sonic",
+                "access_rules": ["egg_hawk_available"],
+                "visibility_rules": ["sonic_story_mission_A", "sonic_story_mission_B", "sonic_story_mission_AandB"],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 120,
+                "y": 720, 
+                "size": 30
+            }
+        ]
+    },
+    {
+        "name": "Egg Hawk - Team Dark",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["egg_hawk_available"],
+        "visibility_rules": ["dark_story_mission_A", "dark_story_mission_B", "dark_story_mission_AandB"],
+        "sections": [
+            {
+                "name": "Egg Hawk Dark",
+                "access_rules": ["egg_hawk_available"],
+                "visibility_rules": ["dark_story_mission_A", "dark_story_mission_B", "dark_story_mission_AandB"],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 159,
+                "y": 720, 
+                "size": 30
+            }
+        ]
+    },
+    {
+        "name": "Egg Hawk - Team Rose",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["egg_hawk_available"],
+        "visibility_rules": ["rose_story_mission_A", "rose_story_mission_B", "rose_story_mission_AandB"],
+        "sections": [
+            {
+                "name": "Egg Hawk Rose",
+                "access_rules": ["egg_hawk_available"],
+                "visibility_rules": ["rose_story_mission_A", "rose_story_mission_B", "rose_story_mission_AandB"],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 198,
+                "y": 720, 
+                "size": 30
+            }
+        ]
+    },
+    {
+        "name": "Egg Hawk - Team Chaotix",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["egg_hawk_available"],
+        "visibility_rules": ["chaotix_story_mission_A", "chaotix_story_mission_B", "chaotix_story_mission_AandB"],
+        "sections": [
+            {
+                "name": "Egg Hawk Chaotix",
+                "access_rules": ["egg_hawk_available"],
+                "visibility_rules": ["chaotix_story_mission_A", "chaotix_story_mission_B", "chaotix_story_mission_AandB"],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 235,
+                "y": 720, 
+                "size": 30
+            }
+        ]
+    }
+]

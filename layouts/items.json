@@ -1,0 +1,25 @@
+{
+  "items_grid": {
+      "type": "array",
+      "orientation": "vertical",
+      "margin": "0,0",
+      "content": [
+        {          "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "margin": "0,0",
+            "item_margin": "1,2",
+            "rows": [
+              [ "green_chaos_emerald","blue_chaos_emerald", "yellow_chaos_emerald", "white_chaos_emerald", "cyan_chaos_emerald", "purple_chaos_emerald", "red_chaos_emerald" ],
+              [ "emblems"]
+                    ]
+                 }
+              ]
+            }
+        ]  
+    }
+}
