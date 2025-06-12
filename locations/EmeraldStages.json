@@ -1,0 +1,163 @@
+[
+    {
+        "name": "Ocean Palace - Emerald Stage (Green)",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["ocean_palace_available"],
+        "visibility_rules": [""],
+        "sections": [
+            {
+                "name": "Ocean Palace Emerald Stage",
+                "access_rules": ["ocean_palace_available"],
+                "visibility_rules": [""],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 1720,
+                "y": 805, 
+                "size": 45
+            }
+        ]
+    },
+    {
+        "name": "Power Plant - Emerald Stage (Blue)",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["power_plant_available"],
+        "visibility_rules": [""],
+        "sections": [
+            {
+                "name": "Power Plant Emerald Stage",
+                "access_rules": ["power_plant_available"],
+                "visibility_rules": [""],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 1795,
+                "y": 845, 
+                "size": 45
+            }
+        ]
+    },
+    {
+        "name": "Bingo Highway - Emerald Stage (Yellow)",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["bingo_highway_available"],
+        "visibility_rules": [""],
+        "sections": [
+            {
+                "name": "Bingo Highway Emerald Stage",
+                "access_rules": ["bingo_highway_available"],
+                "visibility_rules": [""],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 1810,
+                "y": 920, 
+                "size": 45
+            }
+        ]
+    },
+    {
+        "name": "Bullet Station - Emerald Stage (White)",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["bullet_station_available"],
+        "visibility_rules": [""],
+        "sections": [
+            {
+                "name": "Bullet Station Emerald Stage",
+                "access_rules": ["bullet_station_available"],
+                "visibility_rules": [""],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 1760,
+                "y": 995, 
+                "size": 45
+            }
+        ]
+    },
+    {
+        "name": "Lost Jungle - Emerald Stage (Cyan)",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["lost_jungle_available"],
+        "visibility_rules": [""],
+        "sections": [
+            {
+                "name": "Lost Jungle Emerald Stage",
+                "access_rules": ["lost_jungle_available"],
+                "visibility_rules": [""],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 1675,
+                "y": 995, 
+                "size": 45
+            }
+        ]
+    },
+    {
+        "name": "Mystic Mansion - Emerald Stage (Purple)",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["mystic_mansion_available"],
+        "visibility_rules": [""],
+        "sections": [
+            {
+                "name": "Mystic Mansion Emerald Stage",
+                "access_rules": ["mystic_mansion_available"],
+                "visibility_rules": [""],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 1625,
+                "y": 920, 
+                "size": 45
+            }
+        ]
+    },
+        {
+        "name": "Final Fortress - Emerald Stage (Red)",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["final_fortress_available"],
+        "visibility_rules": [""],
+        "sections": [
+            {
+                "name": "Final Fortress Emerald Stage",
+                "access_rules": ["final_fortress_available"],
+                "visibility_rules": [""],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 1645,
+                "y": 845, 
+                "size": 45
+            }
+        ]
+    }
+]

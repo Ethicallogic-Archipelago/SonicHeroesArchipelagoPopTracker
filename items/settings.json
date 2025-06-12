@@ -1,0 +1,403 @@
+[
+    {
+        "name": "Team Sonic",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": true,
+        "disabled_img": "/images/sonic_story_disabled.png",
+        "stages":[
+            {
+                "img": "/images/sonic_story_mission_A.png",
+                "name": "Team Sonic - Mission A",
+                "codes": "sonic_story_mission_A",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/sonic_story_mission_B.png",
+                "name": "Team Sonic - Mission B",
+                "codes": "sonic_story_mission_B",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/sonic_story_mission_AandB.png",
+                "name": "Team Sonic - Mission A and B",
+                "codes": "sonic_story_mission_AandB",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "sonic_story"
+    },
+    {
+        "name": "Team Dark",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": true,
+        "disabled_img": "/images/dark_story_disabled.png",
+        "stages":[
+            {
+                "img": "/images/dark_story_mission_A.png",
+                "name": "Team Dark - Mission A",
+                "codes": "dark_story_mission_A",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/dark_story_mission_B.png",
+                "name": "Team Dark - Mission B",
+                "codes": "dark_story_mission_B",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/dark_story_mission_AandB.png",
+                "name": "Team Dark - Mission A and B",
+                "codes": "dark_story_mission_AandB",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "dark_story"
+    },
+    {
+        "name": "Team Rose",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": true,
+        "disabled_img": "/images/rose_story_disabled.png",
+        "stages":[
+            {
+                "img": "/images/rose_story_mission_A.png",
+                "name": "Team Rose - Mission A",
+                "codes": "rose_story_mission_A",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/rose_story_mission_B.png",
+                "name": "Team Rose - Mission B",
+                "codes": "rose_story_mission_B",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/rose_story_mission_AandB.png",
+                "name": "Team Rose - Mission A and B",
+                "codes": "rose_story_mission_AandB",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "rose_story"
+    },
+    {
+        "name": "Team Chaotix",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "disabled_img": "/images/chaotix_story_disabled.png",
+        "stages":[
+            {
+                "img": "/images/chaotix_story_mission_A.png",
+                "name": "Team Chaotix - Mission A",
+                "codes": "chaotix_story_mission_A",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/chaotix_story_mission_B.png",
+                "name": "Team Chaotix - Mission B",
+                "codes": "chaotix_story_mission_B",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/chaotix_story_mission_AandB.png",
+                "name": "Team Chaotix - Mission A and B",
+                "codes": "chaotix_story_mission_AandB",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "chaotix_story"
+    },
+    {
+        "name": "Dark Sanity",
+        "type": "toggle",
+        "img": "/images/dark_sanity.png",
+        "codes": "dark_sanity"
+    },
+    {
+        "name": "Rose Sanity",
+        "type": "toggle",
+        "img": "/images/rose_sanity.png",
+        "codes": "rose_sanity"
+    },
+    {
+        "name": "Chaotix Sanity",
+        "type": "toggle",
+        "img": "/images/chaotix_sanity.png",
+        "codes": "chaotix_sanity"
+    },
+    {
+        "name": "Dark Sanity Enemy Interval",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages":[
+            {
+                "img": "/images/dark_sanity_interval_1.png",
+                "name": "Dark Sanity Enemy Interval - 1",
+                "codes": "dark_sanity_enemy_interval_1",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/dark_sanity_interval_5.png",
+                "name": "Dark Sanity Enemy Interval - 5",
+                "codes": "dark_sanity_enemy_interval_5",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/dark_sanity_interval_10.png",
+                "name": "Dark Sanity Enemy Interval - 10",
+                "codes": "dark_sanity_enemy_interval_10",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/dark_sanity_interval_20.png",
+                "name": "Dark Sanity Enemy Interval - 20",
+                "codes": "dark_sanity_enemy_interval_20",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "dark_sanity_enemy_interval"
+    },    
+    {
+        "name": "Rose Sanity Ring Interval",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages":[
+            {
+                "img": "/images/rose_sanity_interval_1.png",
+                "name": "Rose Sanity Ring Interval - 1",
+                "codes": "rose_sanity_ring_interval_1",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/rose_sanity_interval_5.png",
+                "name": "Rose Sanity Ring Interval - 5",
+                "codes": "rose_sanity_ring_interval_5",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/rose_sanity_interval_10.png",
+                "name": "Rose Sanity Ring Interval - 10",
+                "codes": "rose_sanity_ring_interval_10",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/rose_sanity_interval_20.png",
+                "name": "Rose Sanity Ring Interval - 20",
+                "codes": "rose_sanity_ring_interval_20",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "rose_sanity_ring_interval"
+    },
+    {
+        "name": "Chaotix Sanity Ring Interval",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages":[
+            {
+                "img": "/images/chaotix_sanity_interval_1.png",
+                "name": "Chaotix Sanity Ring Interval - 1",
+                "codes": "chaotix_sanity_ring_interval_1",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/chaotix_sanity_interval_5.png",
+                "name": "Chaotix Sanity Ring Interval - 5",
+                "codes": "chaotix_sanity_ring_interval_5",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/chaotix_sanity_interval_10.png",
+                "name": "Chaotix Sanity Ring Interval - 10",
+                "codes": "chaotix_sanity_ring_interval_10",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/chaotix_sanity_interval_20.png",
+                "name": "Chaotix Sanity Ring Interval - 20",
+                "codes": "chaotix_sanity_ring_interval_20",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "chaotix_sanity_ring_interval"
+    },
+    {
+        "name": "Dont Lose Bonus Key",
+        "type": "toggle",
+        "img": "/images/bonus_key.png",
+        "codes": "bonus_key"
+    },
+    {
+        "name": "Goal Unlock Condition",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/goal_condition_normal.png",
+                "name": "Goal Unlock Condition - Normal",
+                "codes": "goal_unlock_condition_normal",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/goal_condition_emblems_only.png",
+                "name": "Goal Unlock Condition - Emblems Only",
+                "codes": "goal_unlock_condition_emblems_only",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/goal_condition_emeralds_only.png",
+                "name": "Goal Unlock Condition - Emeralds Only",
+                "codes": "goal_unlock_condition_emeralds_only",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "goal_unlock_condition"
+    },
+    {
+        "name": "Required Emblems Percentage",
+        "type": "consumable",
+        "img": "/images/emblems_percentage.png",
+        "codes": "required_emblems_percentage",
+        "min_quantity": 0,
+        "max_quantity": 100
+    },
+    {
+        "name": "Required Rank",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/required_rank_E.png",
+                "name": "Required Rank - E",
+                "codes": "required_rank_E",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/required_rank_D.png",
+                "name": "Required Rank - D",
+                "codes": "required_rank_D",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/required_rank_C.png",
+                "name": "Required Rank - C",
+                "codes": "required_rank_C",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/required_rank_B.png",
+                "name": "Required Rank - B",
+                "codes": "required_rank_B",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/required_rank_A.png",
+                "name": "Required Rank - A",
+                "codes": "required_rank_A",
+                "inherit_codes": false
+            }
+            
+        ],
+        "codes": "required_rank"
+    },
+    {
+        "name": "Number of Gates",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/number_of_gates_1.png",
+                "name": "Number Of Gates - 1",
+                "codes": "number_of_gates_1",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/number_of_gates_2.png",
+                "name": "Number Of Gates - 2",
+                "codes": "number_of_gates_2",
+                "inherit_codes": false
+            },     
+            {
+                "img": "/images/number_of_gates_3.png",
+                "name": "Number Of Gates - 3",
+                "codes": "number_of_gates_3",
+                "inherit_codes": false
+            },           
+            {
+                "img": "/images/number_of_gates_4.png",
+                "name": "Number Of Gates - 4",
+                "codes": "number_of_gates_4",
+                "inherit_codes": false
+            },            
+            {
+                "img": "/images/number_of_gates_5.png",
+                "name": "Number Of Gates - 5",
+                "codes": "number_of_gates_5",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/number_of_gates_6.png",
+                "name": "Number Of Gates - 6",
+                "codes": "number_of_gates_6",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/number_of_gates_7.png",
+                "name": "Number Of Gates - 7",
+                "codes": "number_of_gates_7",
+                "inherit_codes": false
+            }
+            
+        ],
+        "codes": "number_of_gates"
+    },
+    {
+        "name": "Death Link",
+        "type": "toggle",
+        "img": "/images/death_link.png",
+        "codes": "death_link"
+    },
+    {
+        "name": "Ring Link",
+        "type": "toggle",
+        "img": "/images/ring_link.png",
+        "codes": "ring_link"
+    },
+    {
+        "name": "Ring Link - Metal Overlord",
+        "type": "toggle",
+        "img": "/images/ring_link_overlord.png",
+        "codes": "ring_link_overlord"
+    },
+    {
+        "name": "Ring Loss",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/classic_ring_loss.png",
+                "name": "Ring Loss - Classic",
+                "codes": "classic_ring_loss",
+                "inherit_codes": false
+            },
+            {
+                "img": "/images/modern_ring_loss.png",
+                "name": "Ring Loss - Modern",
+                "codes": "modern_ring_loss",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "ring_loss"
+    }
+]

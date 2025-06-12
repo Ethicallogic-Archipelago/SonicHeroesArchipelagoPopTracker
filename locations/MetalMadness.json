@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Goal Level - All Teams",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["metal_madness_available"],
+        "visibility_rules": [""],
+        "sections": [
+            {
+                "name": "Metal Madness & Metal Overlord",
+                "access_rules": ["metal_madness_available"],
+                "visibility_rules": [""],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 1592,
+                "y": 562, 
+                "size": 50
+            }
+        ]
+    }
+]

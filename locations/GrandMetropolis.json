@@ -1,0 +1,2814 @@
+[
+    {
+        "name": "Grand Metropolis - Team Sonic",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["grand_metropolis_available"],
+        "visibility_rules": ["sonic_story_mission_A", "sonic_story_mission_B", "sonic_story_mission_AandB"],
+        "sections": [
+            {
+                "name": "Grand Metropolis Sonic Act 1",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["sonic_story_mission_A", "sonic_story_mission_AandB"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Sonic Act 2",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["sonic_story_mission_B", "sonic_story_mission_AandB"],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 120,
+                "y": 880, 
+                "size": 30
+            }
+        ]
+    },
+    {
+        "name": "Grand Metropolis - Team Dark",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["grand_metropolis_available"],
+        "visibility_rules": ["dark_story_mission_A", "dark_story_mission_B", "dark_story_mission_AandB"],
+        "sections": [
+            {
+                "name": "Grand Metropolis Dark Act 1",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_A", "dark_story_mission_AandB"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B", "dark_story_mission_AandB"],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 159,
+                "y": 860, 
+                "size": 30
+            }
+        ]
+    },
+    {
+        "name": "Grand Metropolis - Dark Sanity",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["grand_metropolis_available"],
+        "visibility_rules": ["dark_sanity"],
+        "sections": [
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 1",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 2",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 3",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 4",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 5",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 6",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 7",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 8",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 9",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 10",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 11",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 12",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 13",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 14",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 15",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 16",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 17",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 18",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 19",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 20",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_20", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_20"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 21",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 22",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 23",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 24",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 25",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 26",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 27",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 28",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 29",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 30",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 31",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 32",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 33",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 34",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 35",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 36",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 37",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 38",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 39",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 40",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_20", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_20"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 41",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 42",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 43",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 44",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 45",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 46",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 47",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 48",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 49",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 50",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 51",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 52",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 53",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 54",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 55",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 56",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 57",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 58",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 59",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 60",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_20", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_20"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 61",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 62",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 63",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 64",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 65",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 66",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 67",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 68",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 69",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 70",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 71",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 72",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 73",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 74",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 75",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 76",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 77",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 78",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 79",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 80",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_20", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_20"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 81",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 82",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 83",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 84",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 85",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 86",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 87",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 88",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 89",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 90",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 91",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 92",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 93",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 94",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 95",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 96",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 97",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 98",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 99",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Dark Act 2 Enemies Killed: 100",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_1", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_5", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_10", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_20", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_20"],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 159,
+                "y": 900, 
+                "size": 30
+            }
+        ]
+    },
+    {
+        "name": "Grand Metropolis - Team Rose",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["grand_metropolis_available"],
+        "visibility_rules": ["rose_story_mission_A", "rose_story_mission_B", "rose_story_mission_AandB"],
+        "sections": [
+            {
+                "name": "Grand Metropolis Rose Act 1",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_A", "rose_story_mission_AandB"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B", "rose_story_mission_AandB"],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 198,
+                "y": 860, 
+                "size": 30
+            }
+        ]
+    },
+    {
+        "name": "Grand Metropolis - Rose Sanity",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["grand_metropolis_available"],
+        "visibility_rules": ["rose_sanity"],
+        "sections": [
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 1",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 2",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 3",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 4",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 5",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 6",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 7",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 8",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 9",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 10",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 11",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 12",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 13",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 14",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 15",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 16",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 17",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 18",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 19",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 20",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_20", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_20"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 21",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 22",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 23",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 24",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 25",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 26",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 27",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 28",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 29",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 30",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 31",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 32",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 33",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 34",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 35",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 36",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 37",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 38",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 39",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 40",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_20", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_20"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 41",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 42",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 43",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 44",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 45",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 46",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 47",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 48",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 49",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 50",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 51",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 52",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 53",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 54",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 55",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 56",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 57",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 58",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 59",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 60",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_20", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_20"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 61",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 62",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 63",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 64",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 65",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 66",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 67",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 68",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 69",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 70",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 71",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 72",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 73",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 74",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 75",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 76",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 77",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 78",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 79",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 80",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_20", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_20"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 81",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 82",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 83",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 84",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 85",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 86",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 87",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 88",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 89",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 90",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 91",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 92",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 93",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 94",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 95",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 96",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 97",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 98",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 99",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 100",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_20", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_20"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 101",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 102",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 103",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 104",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 105",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 106",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 107",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 108",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 109",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 110",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 111",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 112",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 113",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 114",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 115",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 116",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 117",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 118",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 119",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 120",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_20", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_20"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 121",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 122",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 123",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 124",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 125",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 126",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 127",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 128",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 129",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 130",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 131",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 132",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 133",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 134",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 135",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 136",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 137",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 138",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 139",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 140",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_20", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_20"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 141",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 142",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 143",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 144",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 145",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 146",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 147",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 148",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 149",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 150",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 151",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 152",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 153",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 154",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 155",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 156",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 157",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 158",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 159",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 160",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10", "dark_story_mission_B, dark_sanity, dark_sanity_enemy_interval_20", "dark_story_mission_AandB, dark_sanity, dark_sanity_enemy_interval_20"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 161",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 162",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 163",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 164",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 165",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 166",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 167",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 168",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 169",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 170",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 171",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 172",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 173",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 174",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 175",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 176",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 177",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 178",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 179",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 180",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_20", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_20"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 181",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 182",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 183",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 184",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 185",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 186",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 187",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 188",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 189",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 190",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 191",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 192",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 193",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 194",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 195",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 196",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 197",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 198",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 199",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1"],
+                "item_count": 1
+            },
+            {
+                "name": "Grand Metropolis Rose Act 2 Rings Collected: 200",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_1", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_5", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_10", "rose_story_mission_B, rose_sanity, rose_sanity_ring_interval_20", "rose_story_mission_AandB, rose_sanity, rose_sanity_ring_interval_20"],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 198,
+                "y": 900, 
+                "size": 30
+            }
+        ]
+    },
+    {
+        "name": "Grand Metropolis - Team Chaotix",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["grand_metropolis_available"],
+        "visibility_rules": ["chaotix_story_mission_A", "chaotix_story_mission_B", "chaotix_story_mission_AandB"],
+        "sections": [
+            {
+                "name": "Grand Metropolis Chaotix Act 1",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A", "chaotix_story_mission_AandB"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B", "chaotix_story_mission_AandB"]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 235,
+                "y":  860, 
+                "size": 30
+            }
+        ]
+    },
+    {
+        "name": "Grand Metropolis - Chaotix Sanity",
+        "chest_opened_img": "/images/check_done.png",
+        "chest_unopened_img": "/images/check_notdone.png",
+        "access_rules": ["grand_metropolis_available"],
+        "visibility_rules": ["chaotix_sanity"],
+        "sections": [
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 1",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 2",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 3",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 4",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 5",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 6",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 7",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 8",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 9",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 10",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 11",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 12",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 13",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 14",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 15",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 16",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 17",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 18",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 19",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 20",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 21",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 22",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 23",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 24",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 25",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 26",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 27",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 28",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 29",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 30",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 31",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 32",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 33",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 34",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 35",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 36",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 37",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 38",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 39",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 40",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 41",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 42",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 43",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 44",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 45",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 46",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 47",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 48",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 49",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 50",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 51",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 52",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 53",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 54",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 55",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 56",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 57",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 58",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 59",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 60",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 61",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 62",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 63",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 64",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 65",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 66",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 67",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 68",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 69",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 70",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 71",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 72",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 73",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 74",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 75",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 76",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 77",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 78",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 79",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 80",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 81",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 82",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 83",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 84",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 1 Enemies Killed: 85",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_A, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 1",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 2",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 3",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 4",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 5",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 6",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 7",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 8",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 9",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 10",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 11",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 12",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 13",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 14",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 15",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 16",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 17",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 18",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 19",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 20",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 21",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 22",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 23",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 24",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 25",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 26",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 27",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 28",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 29",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 30",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 31",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 32",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 33",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 34",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 35",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 36",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 37",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 38",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 39",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 40",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 41",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 42",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 43",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 44",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 45",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 46",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 47",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 48",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 49",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 50",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 51",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 52",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 53",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 54",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 55",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 56",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 57",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 58",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 59",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 60",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 61",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 62",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 63",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 64",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 65",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 66",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 67",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 68",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 69",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 70",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 71",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 72",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 73",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 74",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 75",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 76",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 77",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 78",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 79",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 80",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 81",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 82",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 83",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 84",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            },
+            {
+                "name": "Grand Metropolis Chaotix Act 2 Enemies Killed: 85",
+                "access_rules": ["grand_metropolis_available"],
+                "visibility_rules": ["chaotix_story_mission_B, chaotix_sanity", "chaotix_story_mission_AandB, chaotix_sanity"]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "menu",
+                "x": 235,
+                "y": 900, 
+                "size": 30
+            }
+        ]
+    }
+]
